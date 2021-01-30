@@ -32,6 +32,4 @@ client.on('message', async message => {
     let commandeFile = client.commands.get(cmd.slice(prefix.length));
     if(commandeFile) commandeFile.run(client, message, Args, args);
 })
-
-
 client.login(token);
