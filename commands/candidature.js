@@ -29,6 +29,7 @@ module.exports.run = async(client, message, Args) => {
     })
 }
 
+
 module.exports.help = {
     name: "candidature"
 }
