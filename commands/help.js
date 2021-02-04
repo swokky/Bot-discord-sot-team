@@ -8,7 +8,7 @@ module.exports.run = async(client, message) => {
         .setDescription('Help')
         .addField(
             'Commandes',
-            ">help : permet d'avoir la liste des commandes"
+            ">Candidature : permet de faire une candidature"
         )
     message.delete();
     message.author.send(embed)
